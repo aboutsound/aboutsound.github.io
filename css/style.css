@@ -1,0 +1,278 @@
+* {
+    text-decoration: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;      
+    user-select: none;
+    font-family: Fifaks10Dev1;
+    color: white;
+}
+::-webkit-scrollbar-track {
+    background: #272727;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #181818;
+    border-radius: 100px;
+}
+  
+::-webkit-resizer {
+    width: 5px;
+}
+  
+::-webkit-scrollbar {
+    width: 10px;
+}
+@font-face {
+    font-family: Fifaks10Dev1;
+    src: url("/fonts/Fifaks10Dev1.ttf");
+}
+:root {
+    --f-family-fantasticbagaloo: FantasticBoogaloo;
+    --f-family-calibrationgothic: CalibrationGothicNbpLatin;
+}
+
+/* SoundCloud Style #id */
+#soundcloud { color: #ff7300; }
+#soundcloud:hover { color: #b15000; }
+#soundcloud:active { color: #472000; }
+/* TikToK Style #id */
+#tiktok { color: #e7e7e7; }
+#tiktok:hover { color: #919191; }
+#tiktok:active { color: #4b4b4b; }
+/* Instagram Style #id */
+#instagram { color: #a200ff; }
+#instagram:hover { color: #57008a; }
+#instagram:active { color: #2c0046; }
+/* Youtube Style #id */
+#youtube { color: #ff0000; }
+#youtube:hover { color: #830000; }
+#youtube:active { color: #6d0000; }
+/* Telegram Style #id */
+#telegram { color: #008cff; }
+#telegram:hover { color: #0059a1; }
+#telegram:active { color: #012949; }
+/* Telegram bot Style #id */
+#telegramBot { color: #008cff; }
+#telegramBot:hover { color: #005eaa; }
+/* BuyButton Style #id */
+#buyButton { color: #ffd000;
+             background: #776100;
+             border: none;
+             border-bottom: 3px solid #ffd000;
+             box-shadow: 0px 2px 5px #ffd000; 
+             transition-duration: 0.3s;
+             cursor: pointer;}
+#buyButton:active { color: #ffd000;
+                    background: #776100;
+                    border: none;
+                    border-bottom: none;
+                    box-shadow: 0px 2px 0px #ffd000; }
+/* Premium Style #id */
+#premiumUser {  color: #5252ce;
+    text-shadow: 0px 0px 10px #5252ce;
+    padding: 5px 5px 5px 5px; }
+ion-icon {
+    color: #7c7cf1;
+}
+body {
+    background-color: #000000;
+    opacity: 0;
+  animation: body_show 1s 1; 
+  animation-fill-mode: forwards;
+}
+@keyframes body_show {
+  0%{
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+
+  }
+}
+hr {
+    text-align: left;
+    border: none;
+    border-radius: 100px;
+    background-color: #4e4eb1;
+    color: #4e4eb1;
+    height: 1px;
+    width: 100%;
+    margin: 10px 0px;
+    animation: hr__animation 1s 1;
+}
+footer {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: #070707;
+}
+footer p {
+    padding: 0px 0px 0px 10px;
+    font-size: 20px;
+    color: #7e7e7e;
+}
+.aboutsounds__block {
+    text-align: left;
+    padding: 30px;
+}
+.aboutsounds__block a {
+    color: #ffffff;
+    font-size: 30px;
+    transition-duration: 0.3s;
+    padding: 5px 10px 5px 10px;
+}
+.aboutsounds__block a:hover {
+    color: #a0a0a0;
+    border-bottom: 2px solid #888888;
+}
+.aboutsounds__block p {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 20px 0px 0px 10px;
+}
+.aboutsounds__producers__content {
+    width: 100%;
+    padding-bottom: 100px;
+}
+.aboutsounds__producers__content p {
+    font-size: 30px;
+    margin: 10px 40px;
+}
+.producer__profile {
+    display: inline-block;    
+    padding: 20px;
+    margin: 20px 20px;
+    width: 360px;
+    box-shadow: 2px 2px 2px #2d2d6e;
+    border-radius: 100px 0px 0px 0px;
+    transition-duration: 0.2s;
+    opacity: 0.5;
+    filter:grayscale(100) blur(1px);
+}
+.producer__profile:hover {
+    transform: translate(0px,-30px) scale(1.1);
+    opacity: 1;
+    box-shadow: 5px 8px 10px #2d2d6e;
+    filter:grayscale(0) blur(0px);
+    animation: prod__prof__hover 1.5s 1;
+}
+.producer__profile img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px 20px;
+    box-shadow: 0px 0px 10px #2c306b;
+    transition-duration: 0.5s;
+}
+.producer__profile ion-icon {
+    transform: translate(0px,0px);
+    font-size: 20px;
+}
+.producer__profile ion-icon:hover {
+    color:#7259b6;
+}
+.producer__profile a {
+    font-size: 20px;
+}
+.producer__profile a:hover {
+    text-decoration: underline;
+}
+.producer__profile p {
+    font-size: 19px;
+    margin: 10px 0px;
+}
+genres-tags {
+    color: #5252ce;
+}
+.producer__profile ul {
+    margin-left: -35px;
+}
+.producer__profile li {
+    display: inline;
+}
+.page__profile__content {
+    display: inline-block;    
+    padding: 20px;
+    margin: 20px 50px;
+    width: 600px;
+    box-shadow: 2px 2px 2px #2d2d6e;
+    border-radius: 100px 0px 0px 0px;
+    transition-duration: 0.2s;
+    opacity: 1;
+    transform: translate(0px,-30px) scale(1.1);
+    animation: page__prof__animation 1.5s 1;
+}
+.page__profile__content img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px 20px;
+    box-shadow: 0px 0px 10px #2c306b;
+    transition-duration: 0.5s;
+}
+.page__profile__content ion-icon {
+    transform: translate(0px,0px);
+    font-size: 20px;
+}
+.page__profile__content ion-icon:hover {
+    color:#7259b6;
+}
+.page__profile__content a {
+    font-size: 20px;
+}
+.page__profile__content a:hover {
+    text-decoration: underline;
+}
+.page__profile__content p {
+    font-size: 19px;
+    margin: 10px 0px;
+}
+genres-tags {
+    color: #5252ce;
+}
+.socials__block a {
+    color: #333333;
+}
+.socials__block ul {
+    margin-left: -35px;
+}
+.socials__block li {
+    display: inline;
+}
+.socials__block p {
+    color: #a5a5a5;
+}
+.faq__block {
+    padding: 0px 30px 50px 30px;
+    border-left: 1px solid #242458;
+    border-right: 1px solid #242458;
+    width: 700px;
+}
+.faq__block p {
+    font-size: 30px;
+}
+.faq__block li {
+    font-size: 23px;
+}
+.faq__block button {
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+/*--------------------------------------------------------------------------------------
+--------------------------------ANIMATIONS--------------------------------------------
+--------------------------------------------------------------------------------------*/
+@keyframes hr__animation {
+    0% { width: 0; background-color: #353575; color: #353575; }
+    100% { width: 100%; background-color: #4e4eb1; color: #4e4eb1; }
+}
+@keyframes prod__prof__hover__animation {
+    0% { transform: translate(0px,0px) scale(1.1); }
+    100% { transform: translate(0px,-30px) scale(1.1); }
+}
+@keyframes page__prof__animation {
+    0% { opacity: 0.5; transform: translate(0px,-50px) scale(1.1); }
+    100% { opacity: 1; transform: translate(0px,-30px) scale(1.1); }
+}
