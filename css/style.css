@@ -253,11 +253,11 @@ genres-tags {
 }
 
 @media (max-width: 600px) {
+    .aboutsounds__block a {
+        font-size: 20px;
+    }
     .producer__profile {
         width: 500px;
-    }
-    .aboutsounds__block a {
-        font-size: 15px;
     }
     .producer__profile {
         filter:none;
